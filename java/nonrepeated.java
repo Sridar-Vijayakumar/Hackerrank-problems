@@ -29,3 +29,4 @@ public class nonrepeated{
             System.out.println("No non-repeated character");
     }
 }
+
