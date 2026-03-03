@@ -8,7 +8,7 @@ public class Strings {
         String B = sc.nextLine();
 
         System.out.println(A.length() + B.length());
-
+ 
         if (A.compareTo(B) > 0) {
             System.out.println("Yes");
         } else {

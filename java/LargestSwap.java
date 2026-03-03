@@ -23,7 +23,7 @@ public class LargestSwap {
                 if (newNum > maxNum) {
                     maxNum = newNum;
                 }
-
+                
                 // Swap back
                 temp = digits[i];
                 digits[i] = digits[j];

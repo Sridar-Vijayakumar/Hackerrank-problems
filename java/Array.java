@@ -6,7 +6,6 @@ public class Array {
 
         int[][] arr = new int[6][6];
 
-        // Read 6x6 matrix
         for (int i = 0; i < 6; i++) {
             for (int j = 0; j < 6; j++) {
                 arr[i][j] = sc.nextInt();
@@ -15,7 +14,6 @@ public class Array {
 
         int maxSum = Integer.MIN_VALUE;
 
-        // There are 16 hourglasses in a 6x6 array
         for (int i = 0; i <= 3; i++) {
             for (int j = 0; j <= 3; j++) {
 
@@ -28,7 +26,8 @@ public class Array {
             }
         }
 
-        System.out.println(maxSum);
+        System.out. println(maxSum);
         sc.close();
     }
+
 }
